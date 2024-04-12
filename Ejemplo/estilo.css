@@ -1,0 +1,59 @@
+body
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(to right, rgb(158, 207, 143) , rgb(113, 208, 211));
+    font-size: 25px;
+}
+*
+{
+    box-sizing: border-box;
+}
+input
+{
+    border: 1px solid blue;
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+    /* padding-left: 10px; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#Contenedor1
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#Contenedor2
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#DecrementarBtn,
+#IncrementarBtn
+{
+    width: 50px;
+    font-size: 30px;
+}
+#DecrementarBtn:hover
+{
+    background-color: purple !important;
+    color: yellow !important;
+}
+#IncrementarBtn:hover
+{
+    background-color: rgb(231, 124, 23) !important;  
+}
+#AgregarBtn:hover
+{
+    background-color: rgb(92, 192, 79) !important;  
+}
